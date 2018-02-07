@@ -60,7 +60,7 @@ controller.login = (request, reply) => {
             reply(
                 {
                     data : {
-                        id : userFind._id,
+                        _id : userFind._id,
                         firstName : userFind.firstName,
                         lastName : userFind.lastName,
                         email : userFind.email
